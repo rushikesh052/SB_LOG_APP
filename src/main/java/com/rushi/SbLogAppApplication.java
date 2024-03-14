@@ -8,6 +8,7 @@ public class SbLogAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SbLogAppApplication.class, args);
+		String name="Rushi";
 	}
 
 }
