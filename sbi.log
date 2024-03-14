@@ -1264,3 +1264,16 @@ Unconditional classes:
 2024-03-14 18:31:01,549 [RMI TCP Connection(9)-127.0.0.1] DEBUG o.s.c.support.DefaultLifecycleProcessor            - Bean 'springBootLoggingLifecycle' completed its stop procedure
 2024-03-14 18:31:01,550 [RMI TCP Connection(9)-127.0.0.1] DEBUG o.s.j.e.a.AnnotationMBeanExporter                  - Unregistering JMX-exposed beans on shutdown
 2024-03-14 18:31:01,553 [RMI TCP Connection(9)-127.0.0.1] DEBUG o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 18:31:06,923 [main] INFO  com.rushi.SbLogAppApplication                      - Starting SbLogAppApplication using Java 17.0.9 with PID 14196 (H:\JRTP_CLASS_PROJECT\SB_log_App\target\classes started by USER in H:\JRTP_CLASS_PROJECT\SB_log_App)
+2024-03-14 18:31:06,928 [main] INFO  com.rushi.SbLogAppApplication                      - No active profile set, falling back to 1 default profile: "default"
+2024-03-14 18:31:08,304 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 9090 (http)
+2024-03-14 18:31:08,321 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2024-03-14 18:31:08,324 [main] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-03-14 18:31:08,324 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-14 18:31:08,407 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-03-14 18:31:08,408 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1399 ms
+2024-03-14 18:31:08,979 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2024-03-14 18:31:09,020 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 9090 (http) with context path ''
+2024-03-14 18:31:09,039 [main] INFO  com.rushi.SbLogAppApplication                      - Started SbLogAppApplication in 2.721 seconds (process running for 4.363)
+2024-03-14 18:36:31,172 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-03-14 18:36:31,191 [RMI TCP Connection(13)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-9090"]
