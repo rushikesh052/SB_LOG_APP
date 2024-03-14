@@ -8,6 +8,10 @@ public class SbLogAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SbLogAppApplication.class, args);
+		int id=124;
+		Long no=889009304l;
+		String name="ashok";
+		Double fees=12000.00;
 		
 	}
 
