@@ -9,7 +9,9 @@ public class SbLogAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SbLogAppApplication.class, args);	
 		int a=10;
-		int b=20;
+
+		int b=25;
+
 	}
 
 }
