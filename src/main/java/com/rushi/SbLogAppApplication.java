@@ -13,6 +13,10 @@ public class SbLogAppApplication {
 
 	}
 	
+	public Integer mul(int a, int b) {
+		return a*b;
+	}
+	
 	
 
 }
