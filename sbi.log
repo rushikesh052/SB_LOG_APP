@@ -1277,3 +1277,46 @@ Unconditional classes:
 2024-03-14 18:31:09,039 [main] INFO  com.rushi.SbLogAppApplication                      - Started SbLogAppApplication in 2.721 seconds (process running for 4.363)
 2024-03-14 18:36:31,172 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
 2024-03-14 18:36:31,191 [RMI TCP Connection(13)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-9090"]
+2024-03-15 11:43:06,978 [main] INFO  com.rushi.SbLogAppApplication                      - Starting SbLogAppApplication using Java 17.0.9 with PID 13440 (H:\Workspace\JRTP_class_Practice\SB_LOG_APP\target\classes started by USER in H:\Workspace\JRTP_class_Practice\SB_LOG_APP)
+2024-03-15 11:43:06,983 [main] INFO  com.rushi.SbLogAppApplication                      - No active profile set, falling back to 1 default profile: "default"
+2024-03-15 11:43:09,450 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 9092 (http)
+2024-03-15 11:43:09,502 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9092"]
+2024-03-15 11:43:09,509 [main] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-03-15 11:43:09,510 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-15 11:43:09,684 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-03-15 11:43:09,684 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2529 ms
+2024-03-15 11:43:10,310 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9092"]
+2024-03-15 11:43:10,344 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 9092 (http) with context path ''
+2024-03-15 11:43:10,362 [main] INFO  com.rushi.SbLogAppApplication                      - Started SbLogAppApplication in 4.115 seconds (process running for 6.063)
+2024-03-15 11:43:43,655 [http-nio-9092-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-15 11:43:43,656 [http-nio-9092-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2024-03-15 11:43:43,658 [http-nio-9092-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2024-03-15 12:07:16,818 [main] INFO  com.rushi.SbLogAppApplication                      - Starting SbLogAppApplication using Java 17.0.9 with PID 10352 (H:\Workspace\JRTP_class_Practice\SB_LOG_APP\target\classes started by USER in H:\Workspace\JRTP_class_Practice\SB_LOG_APP)
+2024-03-15 12:07:16,821 [main] INFO  com.rushi.SbLogAppApplication                      - No active profile set, falling back to 1 default profile: "default"
+2024-03-15 12:07:18,933 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 9092 (http)
+2024-03-15 12:07:18,950 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9092"]
+2024-03-15 12:07:18,953 [main] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-03-15 12:07:18,953 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-15 12:07:19,039 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-03-15 12:07:19,040 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2023 ms
+2024-03-15 12:07:19,612 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9092"]
+2024-03-15 12:07:19,621 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-15 12:07:19,645 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger          - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-15 12:07:19,670 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9092 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9092 or configure this application to listen on another port.
+
+2024-03-15 12:08:15,625 [main] INFO  com.rushi.SbLogAppApplication                      - Starting SbLogAppApplication using Java 17.0.9 with PID 12680 (H:\Workspace\JRTP_class_Practice\SB_LOG_APP\target\classes started by USER in H:\Workspace\JRTP_class_Practice\SB_LOG_APP)
+2024-03-15 12:08:15,629 [main] INFO  com.rushi.SbLogAppApplication                      - No active profile set, falling back to 1 default profile: "default"
