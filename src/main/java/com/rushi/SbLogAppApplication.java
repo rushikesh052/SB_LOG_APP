@@ -9,6 +9,7 @@ public class SbLogAppApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SbLogAppApplication.class, args);	
+		System.out.println("application started...");
 	}
 
 }
